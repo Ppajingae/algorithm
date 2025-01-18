@@ -20,10 +20,10 @@ public class Algorithm250117 {
 
         String answer = "";
 
-        for(int i = 0; i < str_list.length; i++){
+        for (String s : str_list) {
 
-            if(!str_list[i].contains(ex)){
-                answer += str_list[i];
+            if (!s.contains(ex)) {
+                answer += s;
             }
         }
 
