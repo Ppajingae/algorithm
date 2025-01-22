@@ -1,5 +1,6 @@
 import algorithm._250120.Algorithm250120;
 import algorithm._250121.Algorithm250121;
+import algorithm._250122.Algorithm250122;
 
 import java.util.Arrays;
 
@@ -8,11 +9,10 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
 
-        Algorithm250121 algorithm250121 = new Algorithm250121();
+        Algorithm250122 algorithm250122 = new Algorithm250122();
 
 
-        String[] arr = { "n", "omg" };
-        String[] arr2 = {"m", "dot"};
-        System.out.println(algorithm250121.solution(arr, arr2));
+        int[] arr = { 1, 4, 2, 5, 3 };
+        System.out.println(Arrays.toString(algorithm250122.solution(arr)));
         }
 }
