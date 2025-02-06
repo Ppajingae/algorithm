@@ -27,4 +27,6 @@ public class Algorithm250122 {
         return stk.stream().mapToInt(j -> j).toArray();
     }
 
+
+
 }
