@@ -3,6 +3,8 @@ import algorithm._250121.Algorithm250121;
 import algorithm._250122.Algorithm250122;
 import algorithm._250131.Algorithm250131;
 import algorithm._250206.Algorithm250206;
+import algorithm._250311.Algorithm250311;
+import algorithm._250312.Algorithm250312;
 
 import java.util.Arrays;
 
@@ -11,10 +13,11 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
 
-        Algorithm250206 algorithm250206 = new Algorithm250206();
+        Algorithm250312 algorithm250312 = new Algorithm250312();
 
 
-        int[] arr = {5, 7, 8, 3};
-        System.out.println(algorithm250206.solution(arr));
+        int k = 3;
+        int[] score = {10, 100, 20, 150, 1, 100, 200};
+        System.out.println(Arrays.toString(algorithm250312.solution(k, score)));
         }
 }
