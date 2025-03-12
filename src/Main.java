@@ -15,9 +15,7 @@ public class Main {
 
         Algorithm250312 algorithm250312 = new Algorithm250312();
 
-
-        int k = 3;
-        int[] score = {10, 100, 20, 150, 1, 100, 200};
-        System.out.println(Arrays.toString(algorithm250312.solution(k, score)));
+        int[] arr = {2, 1, 1, 2, 3, 1, 2, 3, 1};
+        System.out.println(algorithm250312.solution(arr));
         }
 }
