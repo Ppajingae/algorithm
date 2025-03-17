@@ -1,4 +1,4 @@
-package algorithm._250314;
+package algorithm._25.march._250314;
 
 import java.util.*;
 import java.util.stream.Collectors;

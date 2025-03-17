@@ -1,6 +1,4 @@
-package algorithm._250116;
-
-import java.util.Arrays;
+package algorithm._25.january._250116;
 
 public class Algorithm250116 {
 

@@ -1,4 +1,4 @@
-package algorithm._250115;
+package algorithm._25.january._250115;
 
 import java.util.*;
 

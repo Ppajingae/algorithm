@@ -1,4 +1,4 @@
-package algorithm._250131;
+package algorithm._25.january._250131;
 
 public class Algorithm250131 {
 
