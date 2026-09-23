@@ -1,6 +1,7 @@
 import algorithm._25.march._250318.Algorithm250318;
 import algorithm._26.september._260920.Algorithm260920;
 import algorithm._26.september._260921.Algorithm260921;
+import algorithm._26.september._260923.Algorithm260923;
 
 import java.util.Arrays;
 
@@ -9,11 +10,11 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
 
-        Algorithm260921 algorithm260921 = new Algorithm260921();
+        Algorithm260923 algorithm260923 = new Algorithm260923();
 
-
-        String[] players = {"mumu", "soe", "poe", "kai", "mine"};
-        String[] callings = {"kai", "kai", "mine", "mine"};
-        System.out.println(Arrays.toString(algorithm260921.solution(players, callings)));
+        int n = 0;
+        int m = 4;
+        int[] section = {1,3};
+        System.out.println(algorithm260923.solution(n,m, section));
         }
 }
