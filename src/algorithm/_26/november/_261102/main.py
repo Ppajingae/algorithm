@@ -1,7 +1,11 @@
 def solution(numbers):
-    answer = []
+    answer = set()
 
-    return answer
+    for i in range(0, len(numbers)):
+        for j in range(1, len(numbers):
+            answer.add(numbers[i] + numbers[j])
+
+    return sorted(answer)
 
 
 numbers_list = [
